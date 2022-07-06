@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "riFyNc7eTbhye3riQTjgjY7ZKiztQ4njbTiLkk4wROkPQwp2K3pIn+ZR6oT8ND9IZyhDvC+Ua2Psaw2TeoQskg==",
+  "success": true,
+  "projectFilePath": "C:\\CodeProjects\\Repos\\KasaBlinkCSharp\\KasaBlinkCSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gregp.DESKTOP-H4UNH68\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\gregp.DESKTOP-H4UNH68\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\gregp.DESKTOP-H4UNH68\\.nuget\\packages\\tplink-smartdevices\\2.0.0\\tplink-smartdevices.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

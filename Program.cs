@@ -17,25 +17,32 @@ class Program
  
 public class RandomTimeBlinks
 {
-    bool powerState = true;
     Random timer = new Random();
     double displayTime = 0;
     int sleepTime = 3000;
+    Dictionary<string, string> PlugIPs = new Dictionary<string, string>();
 
     public RandomTimeBlinks(){
         // I just like having the constructor here.  It makes me feel better.
         // I may use this later for passing arguments into the console start.
+        PlugIPs.Add("Bathroom Fan", "192.168.1.5");
+        PlugIPs.Add("Bug 1", "192.168.1.10");
+        PlugIPs.Add("Bug 2", "192.168.1.22");
+        PlugIPs.Add("Family Room Lamp", "192.168.1.3");
+        PlugIPs.Add("Bedroom Fan", "192.168.1.2");
+        PlugIPs.Add("Bedroom Table Lamp", "192.168.1.9");
+        PlugIPs.Add("Stereo & Bluetooth", "192.168.1.7");
+        PlugIPs.Add("Bedroom Floor Lamp", "192.168.1.8");
     }
 
     public void SetTimers()
     {
-        for (int x=0; x<1000; x++)
+        while (true)
         {
             displayTime = (timer.NextDouble() * 20) + 1;
             sleepTime = (int)displayTime * 60000;  //60,000 is the number of miliseconds in a minute, naturally.
             FlipTheSwitch();
             Thread.Sleep(sleepTime);
-            Console.WriteLine("x = " + x);
         }
     }
 

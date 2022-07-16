@@ -11,10 +11,11 @@
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/bin/Debug/net6.0/KasaBlinkCSharp.dll",
-            "args": [],
+            "args": [],  // ["0.7"] for testing
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            "console": "internalConsole",  //This is standard run.
+            //"console": "integratedTerminal", //This is for debugging to pass in args in console app
             "stopAtEntry": false
         },
         {

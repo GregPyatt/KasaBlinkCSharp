@@ -8,30 +8,30 @@
     ".NETCoreApp,Version=v6.0": {
       "KasaBlinkCSharp/1.0.0": {
         "dependencies": {
-          "tplink-smartdevices": "2.0.0"
+          "tplink-smartdevices": "2.0.1"
         },
         "runtime": {
           "KasaBlinkCSharp.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {},
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.3.23909"
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
           }
         }
       },
-      "tplink-smartdevices/2.0.0": {
+      "tplink-smartdevices/2.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/tplink-smartdevices.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
           }
         }
       }
@@ -50,19 +50,19 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/12.0.3": {
+    "Newtonsoft.Json/13.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "path": "newtonsoft.json/12.0.3",
-      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
-    "tplink-smartdevices/2.0.0": {
+    "tplink-smartdevices/2.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-S9sXh8s8coU8FeqEicxWp/c1cPjxPWS40r6I2kZNYg1H3geSeZbxMbB5ddnksm3LASYJjxbreiCAqb4OPye7jw==",
-      "path": "tplink-smartdevices/2.0.0",
-      "hashPath": "tplink-smartdevices.2.0.0.nupkg.sha512"
+      "sha512": "sha512-mhJQVJHUnjUIJVVA/+sd4mjwycoqLT6cPf2TWZP1rFlaw62W16q9nHiHuOlF6sLcOl47tVrjiZjIL/D1QEuPCg==",
+      "path": "tplink-smartdevices/2.0.1",
+      "hashPath": "tplink-smartdevices.2.0.1.nupkg.sha512"
     }
   }
 }
